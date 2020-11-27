@@ -23,7 +23,7 @@ public class FeatureRegister {
 
         assertEquals("Senhas não conferem", registerPage.getErrorMessage());
         driver.navigate().back();
-    }gu
+    }
 
     @Test
     public void shouldRegisterUserWithPasswordsThatCheck() {
